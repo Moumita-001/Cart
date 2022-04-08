@@ -1,0 +1,135 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+h1,h2,h3{
+  margin:0.5rem 0;
+}
+h1{
+  font-size:2.5rem;
+  color:green;
+}
+h2{
+  font-size:1.2rem;
+}
+h3{
+  font-size:1rem;
+}
+a{
+  text-decoration: none;
+  color:black;
+}
+.heading{
+  text-align:center;
+}
+.signin{
+  color:red;
+  font-size:30px;
+}
+.signin:hover{
+  text-decoration: underline;
+  color:green;
+}
+
+.col-1{
+  display:flex;
+  justify-content: space-evenly;
+  width:90%;
+  margin:1px auto;
+}
+.single-fruit{
+  margin:12px 15px;
+  width:28%;
+  height:337px;
+  text-align: center;
+  border:2px solid black;
+}
+.single-fruit:hover{
+  box-shadow:6px 7px 11px 2px gray;
+  transition:1s ease;
+}
+.col-2{
+   /* border:2px solid red; */
+  width:84%;
+  margin:20px auto;
+}
+.col-2 h2{
+  text-align: center;
+}
+.rupe{
+  margin:5px;
+}
+img.small{
+  /* border:2px solid red; */
+  width:100%;
+  height:60%;
+  
+}
+.prices{
+  display:flex;
+  justify-content: space-between;
+  width:60%;
+  margin:0 auto;
+}
+.fruits{
+  display: flex;
+  justify-content: space-between;
+}
+.right{
+  display:flex;
+  justify-content: space-between;
+}
+.final{
+  color:white;
+  border:2px solid black;
+  padding:5px 15px;
+  background-color:green;
+}
+button{
+  font-size:0.8rem;
+  padding:0.2rem;
+  margin:0.1rem;
+  color:white;
+  background-color:darkgreen;
+  width:60%;
+  cursor:pointer;
+}
+button:hover{
+  background-color: black;
+}
+.buttons{
+  margin-right:19px;
+}
+.add{
+  background-color: green;
+  width:1.5rem;
+  text-align: center;
+}
+.remove{
+  background-color: black;
+  width:1.5rem;
+}
+button.badge{
+  background-color: red;
+  border:none;
+  color:white;
+  width:1.5rem;
+}
+.text-right{
+text-align: right;
+}
+.txt{
+  text-align: center;
+  color:green;
+
+}
+
+@media screen and (max-width:594px ){
+  .col-1{
+    flex-direction: column;
+    margin:1px 10px;
+  }
+  .single-fruit{
+    width:90%;
+  }
+
+}
